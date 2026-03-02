@@ -20,7 +20,7 @@ export default function Resume() {
         <div className="flex-shrink-0 w-36 h-36 rounded-lg overflow-hidden bg-ocu-columbia/30 border-2 border-ocu-columbia flex items-center justify-center">
           {/* Replace src with your photo, e.g. /me.jpg (place file in public/) */}
           <img
-            src= "biopic.jpg"
+            src= "c:\Users\fragk\OneDrive\Εικόνες\biopic.jpg"
             alt="Your photo"
             className="w-full h-full object-cover"
             onError={(e) => {
@@ -96,10 +96,10 @@ export default function Resume() {
 
       {/* Certifications — TODO: add certs, courses, badges */}
       <section className="mb-6">
-        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Certifications</h2>
+        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Honors Program</h2>
         <ul className="text-ocu-navy/90 space-y-1">
-          <li>Certification or course name — Issuer, Year</li>
-          <li>Add more as needed.</li>
+          <li>Graduating with Honors — 2027</li>
+          <li>Already finished all the requirements for the honors program</li>
         </ul>
       </section>
 
@@ -107,15 +107,16 @@ export default function Resume() {
       <section className="mb-6">
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Activities & Involvement</h2>
         <ul className="text-ocu-navy/90 space-y-1">
-          <li>Club, organization, or volunteer role — brief note</li>
+          <li>Athletic role - OCU volleyball team</li>
+          <li>Volunteer role — Acorn Academy</li>
         </ul>
       </section>
 
       {/* Awards — TODO: honors, scholarships */}
       <section className="mb-6">
-        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Awards & Honors</h2>
+        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Honors Program</h2>
         <ul className="text-ocu-navy/90 space-y-1">
-          <li>Award or scholarship name — Year</li>
+          <li>Graduating with Honors - 2027</li>
         </ul>
       </section>
 
@@ -123,7 +124,7 @@ export default function Resume() {
       <section className="mb-6">
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Skills</h2>
         <p className="text-ocu-navy/90">
-          e.g. JavaScript, React, Tailwind CSS, Git — add your own.
+          JavaScript, C, React, GitHub.
         </p>
       </section>
 
