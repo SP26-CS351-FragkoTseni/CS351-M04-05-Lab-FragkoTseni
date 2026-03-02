@@ -35,8 +35,11 @@ export default function Resume() {
         <div className="flex-1">
           <h2 className="text-lg font-semibold text-ocu-navy mb-2">Biography</h2>
           <p className="text-ocu-navy/90">
-            Write a short paragraph about yourself: your major, interests, career goals,
-            and what you bring to a team. Replace this placeholder with your own bio.
+            I am a Computer Science student at Oakland City University with a strong
+            interest in web development and software engineering. As a student-athlete,
+            I have developed discipline, leadership, and time management skills while
+            balancing academics and volleyball. I am passionate about building clean,
+            user-friendly web applications and continuously improving my technical skills.
           </p>
         </div>
       </section>
@@ -45,10 +48,10 @@ export default function Resume() {
       <section className="mb-6">
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Contact</h2>
         <ul className="text-ocu-navy/90 space-y-1">
-          <li>Your Name</li>
-          <li>email@example.com</li>
-          <li>Phone (optional)</li>
-          <li>LinkedIn / Portfolio (optional)</li>
+          <li>Fragko Tseni</li>
+          <li>tsenifragko@myocu.oak.edu</li>
+          <li>Oakland City, IN</li>
+          <li>GitHub: github.com/fragkotseni</li>
         </ul>
       </section>
 
@@ -58,7 +61,7 @@ export default function Resume() {
         <div className="space-y-3">
           <div>
             <p className="font-medium text-ocu-navy">Oakland City University</p>
-            <p className="text-ocu-navy/80 text-sm">Degree, Major — Expected / Graduation Year</p>
+            <p className="text-ocu-navy/80 text-sm">Bachelor of Science in Computer Science  with a Minor in Creative Technologies— Expected 2027</p>
           </div>
         </div>
       </section>
@@ -68,11 +71,12 @@ export default function Resume() {
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Experience</h2>
         <div className="space-y-4">
           <div>
-            <p className="font-medium text-ocu-navy">Job or Role Title</p>
-            <p className="text-ocu-columbia text-sm">Company / Organization · Date range</p>
+            <p className="font-medium text-ocu-navy">Desk Assistant</p>
+            <p className="text-ocu-columbia text-sm">Accounting Center · 2023 – 2024</p>
             <ul className="list-disc list-inside text-ocu-navy/90 text-sm mt-1 space-y-1">
-              <li>Bullet point describing your responsibility or achievement.</li>
-              <li>Add more bullets as needed.</li>
+              <li>Assisted students with scheduling and front-desk operations.</li>
+              <li>Maintained organized financial documents and records.</li>
+              <li>Improved communication and administrative efficiency.</li>
             </ul>
           </div>
         </div>
