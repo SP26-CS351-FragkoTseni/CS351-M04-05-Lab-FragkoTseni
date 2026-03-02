@@ -20,7 +20,7 @@ export default function Resume() {
         <div className="flex-shrink-0 w-36 h-36 rounded-lg overflow-hidden bg-ocu-columbia/30 border-2 border-ocu-columbia flex items-center justify-center">
           {/* Replace src with your photo, e.g. /me.jpg (place file in public/) */}
           <img
-            src= "c:\Users\fragk\OneDrive\Εικόνες\biopic.jpg"
+            src= "/biopic.jpg"
             alt="Your photo"
             className="w-full h-full object-cover"
             onError={(e) => {
@@ -71,6 +71,18 @@ export default function Resume() {
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Experience</h2>
         <div className="space-y-4">
           <div>
+            <p className="font-medium text-ocu-navy">IT Student Worker</p>
+            <p className="text-ocu-columbia text-sm">
+              Oakland City University · 2025 – Present
+            </p>
+            <ul className="list-disc list-inside text-ocu-navy/90 text-sm mt-1 space-y-1">
+              <li>Provide technical support to students, faculty, and staff.</li>
+              <li>Troubleshoot hardware, software, and network-related issues.</li>
+              <li>Assist with system setup, maintenance, and campus technology operations.</li>
+              <li>Strengthened problem-solving and real-time debugging skills.</li>
+            </ul>
+          </div>
+          <div>
             <p className="font-medium text-ocu-navy">Desk Assistant</p>
             <p className="text-ocu-columbia text-sm">Accounting Center · 2023 – 2024</p>
             <ul className="list-disc list-inside text-ocu-navy/90 text-sm mt-1 space-y-1">
@@ -87,19 +99,35 @@ export default function Resume() {
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Projects</h2>
         <div className="space-y-3">
           <div>
-            <p className="font-medium text-ocu-navy">Project Name</p>
-            <p className="text-ocu-navy/80 text-sm">Tech used · Link or repo (optional)</p>
-            <p className="text-ocu-navy/90 text-sm mt-1">Brief description of the project and your role.</p>
+            <p className="font-medium text-ocu-navy">Personal Portfolio Website</p>
+            <p className="text-ocu-navy/80 text-sm">
+              React · GitHub Pages
+            </p>
+            <p className="text-ocu-navy/90 text-sm mt-1">
+              Designed and developed a responsive personal website including
+              Homepage, About, Resume, and Contact pages. Implemented clean UI
+              design and component-based structure.
+            </p>
+          </div>
+
+          <div>
+            <p className="font-medium text-ocu-navy">To-Do List Web Application</p>
+            <p className="text-ocu-navy/80 text-sm">
+              React · useState · Local Storage
+            </p>
+            <p className="text-ocu-navy/90 text-sm mt-1">
+              Built a task management app allowing users to add, delete, and
+              persist tasks using local storage for data retention.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Certifications — TODO: add certs, courses, badges */}
       <section className="mb-6">
-        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Honors Program</h2>
+        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Certifications</h2>
         <ul className="text-ocu-navy/90 space-y-1">
-          <li>Graduating with Honors — 2027</li>
-          <li>Already finished all the requirements for the honors program</li>
+          <li>Printing Certicication - 2025</li>
         </ul>
       </section>
 
@@ -114,9 +142,10 @@ export default function Resume() {
 
       {/* Awards — TODO: honors, scholarships */}
       <section className="mb-6">
-        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Honors Program</h2>
+        <h2 className="text-lg font-semibold text-ocu-navy mb-2">Awards and Honors</h2>
         <ul className="text-ocu-navy/90 space-y-1">
           <li>Graduating with Honors - 2027</li>
+          <li>Athletic Scholarship Recipient</li>
         </ul>
       </section>
 
@@ -124,7 +153,8 @@ export default function Resume() {
       <section className="mb-6">
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">Skills</h2>
         <p className="text-ocu-navy/90">
-          JavaScript, C, React, GitHub.
+          JavaScript, React, HTML, CSS, C Programming, Git, GitHub,
+          Problem Solving, Teamwork, Time Management
         </p>
       </section>
 
@@ -132,7 +162,7 @@ export default function Resume() {
       <section>
         <h2 className="text-lg font-semibold text-ocu-navy mb-2">References</h2>
         <p className="text-ocu-navy/80 text-sm">
-          Available upon request — or list 1–2 references with title and contact.
+          Available upon request
         </p>
       </section>
     </div>
