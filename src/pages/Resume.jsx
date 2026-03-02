@@ -20,7 +20,7 @@ export default function Resume() {
         <div className="flex-shrink-0 w-36 h-36 rounded-lg overflow-hidden bg-ocu-columbia/30 border-2 border-ocu-columbia flex items-center justify-center">
           {/* Replace src with your photo, e.g. /me.jpg (place file in public/) */}
           <img
-            src="/me.jpg"
+            src= "biopic.jpg"
             alt="Your photo"
             className="w-full h-full object-cover"
             onError={(e) => {
@@ -29,7 +29,7 @@ export default function Resume() {
             }}
           />
           <span className="hidden text-ocu-navy/70 text-sm text-center px-2">
-            Add your photo (e.g. public/me.jpg)
+            Add your photo (biopic.jpg)
           </span>
         </div>
         <div className="flex-1">
