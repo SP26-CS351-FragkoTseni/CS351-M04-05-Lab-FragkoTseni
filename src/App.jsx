@@ -2,7 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import ApiDemo from './pages/ApiDemo'
 import Resume from './pages/Resume'
-import CreatePageInstructions from './pages/CreatePageInstructions'
+import Portfolio from './pages/Portfolio'
 
 function App() {
   return (
@@ -16,7 +16,9 @@ function App() {
             <Link to="/" className="hover:text-ocu-columbia transition-colors">Home</Link>
             <Link to="/api-demo" className="hover:text-ocu-columbia transition-colors">API Demo</Link>
             <Link to="/resume" className="hover:text-ocu-columbia transition-colors">Resume</Link>
-            <Link to="/create-page-instructions" className="hover:text-ocu-columbia transition-colors">Create a Page</Link>
+            <Link to="/portfolio" className="hover:text-ocu-columbia transition-colors">
+            Portfolio
+            </Link>
           </div>
         </nav>
       </header>
@@ -25,7 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/api-demo" element={<ApiDemo />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/create-page-instructions" element={<CreatePageInstructions />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </main>
       <footer className="bg-ocu-navy text-ocu-columbia text-sm py-4 text-center">
